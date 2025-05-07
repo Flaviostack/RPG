@@ -13,9 +13,10 @@ class player:
     inventario = ["slot1", "slot2", "slot3", "slot4", "slot5"]
 #    armadura = ["SlotBotas", "SlotPeitoral", "SlotCapacete", "SlotLuvas"]
      
-    
-    def atacar(self, inimigo):
+    def atacar(self, inimigo, mensagem_de_ataque):
         dano = self.ataque - inimigo.defesa
+        time.sleep(1)
+        print(mensagem_de_ataque)
     
     def morrer(self, mensagem):
         print(mensagem)

@@ -2,7 +2,7 @@ import random
 import time
 
 class inimigo:
-    def __init__(self, classe, vida, ataque, defesa, inventario, localizacao):
+    def __init__(self, classe, vida, ataque, defesa, inventario):
         self.classe = classe
         self.vida = vida
         self.ataque = ataque
@@ -28,9 +28,7 @@ class inimigo:
             print(f"{self.classe} atacou {player.nome} e causou {dano} de dano!")
         else:
             print(f"{player.nome} bloqueou o ataque de {self.classe}!")
-        
-        
-                
+                    
     def morrer(self, mensagem):
         print(mensagem)
         drop = random.choice(self.inventario)
