@@ -1,2 +1,7 @@
-todos inimigos devem ter 4 eventos de sorte
 o inventário do player tem 5 slots
+
+inimigos{
+    todos inimigos devem ter 4 eventos de sorte
+    todos inimigos devem poder morrer
+    os inimigos vão obedecer um sistema de classes
+}
