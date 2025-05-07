@@ -2,7 +2,9 @@ class player:
     vida = 100
     ataque = 5
     defesa = 0
-    inventario = []
+    inventario = ["slot1", "slot2", "slot3", "slot4", "slot5"]
+#    armadura = ["SlotBotas", "SlotPeitoral", "SlotCapacete", "SlotLuvas"]
+    
     localizacao = "inicial"
     
     def __init__(self, vida, ataque, defesa, inventario, localizacao):
