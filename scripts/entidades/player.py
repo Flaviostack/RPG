@@ -17,6 +17,8 @@ class player:
         dano = self.ataque - inimigo.defesa
         time.sleep(1)
         print(mensagem_de_ataque)
+        inimigo.vida -= dano
+        return dano
     
     def morrer(self, mensagem):
         print(mensagem)
